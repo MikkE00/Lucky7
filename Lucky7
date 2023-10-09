@@ -1,5 +1,5 @@
-
-public class Peli {
+import java.util.Random;
+public class Lucky7 {
     public static void main(String[] args) {
         Random random = new Random();
         int[] numerot = new int[3];
@@ -24,7 +24,7 @@ public class Peli {
                 break;
             }
         }
-
+    //Voitto- ja häviöviestit
         if (voitto) {
             System.out.println("Onneksi olkoon, voitit!");
         } else {
