@@ -26,9 +26,9 @@ public class Lucky7 {
         }
     //Voitto- ja häviöviestit
         if (voitto) {
-            System.out.println("Onneksi olkoon, voitit!");
+            System.out.println("Onneksi olkoon, voitit pelin!");
         } else {
-            System.out.println("Hävisit!");
+            System.out.println("Hävisit pelin!");
         }
     }
 }
